@@ -2,10 +2,8 @@ import os
 from os import listdir, walk
 from os.path import isfile, join
 import csv
-# import glob
 
 mypath = "N:\Engineering\Development Group\Water\Water Tap Cards\Tap Cards"
-# mypath = "N:\Engineering\Development Group\Water\Water Tap Cards\Tap Cards\E\Edinburgh Road"
 exclude = set(['W'])
 
 f = []
